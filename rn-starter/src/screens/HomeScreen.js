@@ -20,6 +20,22 @@ const HomeScreen = ({navigation })=> {
         onPress={()=> navigation.navigate('Count')}
         title="Go to List Counter"
       />
+       <Button 
+        onPress={()=> navigation.navigate('Colors')}
+        title="Go to List Color"
+      />
+      <Button 
+        onPress={()=> navigation.navigate('Square')}
+        title="Go to List Square"
+      />
+      <Button 
+        onPress={()=> navigation.navigate('Text')}
+        title="Go to Texte list"
+      />
+      <Button 
+        onPress={()=> navigation.navigate('Box')}
+        title="Go to Box View"
+      />
     </View>
   )
 };
